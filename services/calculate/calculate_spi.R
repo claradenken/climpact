@@ -13,7 +13,7 @@
         # construct dates
         beg = as.Date(btime[1])
         end = dates[length(dates)]
-        dat.seq = seq(beg, end, by = "1 day")
+        dat.seq = seq(beg, end, by = "1 day")   # by argument as string? What does it mean?
         spidates = dat.seq
 
         spiprec <- spifactor <- array(NA, length(spidates))
